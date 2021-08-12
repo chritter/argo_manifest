@@ -10,8 +10,11 @@ spec:
     targetRevision: master
     path: .
   destination:
+    namespace: seldon
     server: https://kubernetes.default.svc
   syncPolicy:
     automated:
       prune: true
       selfHeal: true
+    syncOptions:
+    - CreateNamespace=false
