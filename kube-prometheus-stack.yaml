@@ -8,6 +8,7 @@ spec:
   source:
     repoURL: https://github.com/prometheus-community/helm-charts/tree/main/charts
     chart: kube-prometheus-stack
+    targetRevision: 18.0.0
     path: .
   destination:
     namespace: prometheus
