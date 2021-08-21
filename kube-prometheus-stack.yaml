@@ -6,10 +6,10 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/prometheus-community/helm-charts/tree/main/charts
+    repoURL: https://github.com/prometheus-community/helm-charts
     chart: kube-prometheus-stack
     targetRevision: 18.0.0
-    path: .
+    path: charts
   destination:
     namespace: prometheus
     server: https://kubernetes.default.svc
