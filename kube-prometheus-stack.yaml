@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://chritter.github.io/charts
     chart: seldon-core-analytics
-    targetRevision: 1.11.0
+    targetRevision: 1.11.0-dev
     path: .
   destination:
     namespace: prometheus
