@@ -8,8 +8,8 @@ spec:
   source:
     repoURL: https://chritter.github.io/charts
     chart: kube-prometheus-stack
-    targetRevision: 0.50.0
-    path: charts
+    targetRevision: 18.0.0
+    path: .
   destination:
     namespace: prometheus
     server: https://kubernetes.default.svc
