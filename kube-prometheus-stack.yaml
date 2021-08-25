@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/chritter/helm-charts-1
+    repoURL: https://chritter.github.io/charts
     chart: kube-prometheus-stack
     targetRevision: 18.0.0
     path: charts
