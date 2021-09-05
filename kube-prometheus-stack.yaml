@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://chritter.github.io/charts
     chart: seldon-core-analytics
-    targetRevision: 1.11.0-dev
+    targetRevision: 1.11.1-dev
     path: .
   destination:
     namespace: seldon-system
