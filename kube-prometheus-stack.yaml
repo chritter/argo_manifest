@@ -7,8 +7,8 @@ spec:
   project: default
   source:
     repoURL: https://chritter.github.io/charts12
-    chart: kube-prometheus-stack
-    targetRevision: 18.0.1
+    chart: seldon-core-analytics
+    targetRevision: 1.11.0-dev
     path: .
   destination:
     namespace: seldon-system
