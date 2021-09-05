@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://chritter.github.io/charts
+    repoURL: https://chritter.github.io/charts12
     chart: seldon-core-analytics
     targetRevision: 1.11.0-dev
     path: .
