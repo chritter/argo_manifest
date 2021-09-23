@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://chritter.github.io/charts
-    chart: mlflow
-    targetRevision: 0.1.1
+    repoURL: https://github.com/chritter/charts
+    targetRevision: master
+    path: stable/mlflow
   destination:
     namespace: minio
     server: https://kubernetes.default.svc
