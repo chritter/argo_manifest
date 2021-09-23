@@ -9,7 +9,6 @@ spec:
     repoURL: https://chritter.github.io/charts
     chart: mlflow
     targetRevision: 0.1.1
-    path: .
   destination:
     namespace: minio
     server: https://kubernetes.default.svc
