@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://chritter.github.io/charts1
+    repoURL: https://chritter.github.io/charts
     chart: mlflow
     targetRevision: 0.1.1
     path: .
