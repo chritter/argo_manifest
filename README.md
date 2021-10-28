@@ -1,1 +1,4 @@
-# ArgoCD Manifests for Deployment on DigitalOcean K8s Cluster
+ArgoCD Manifests
+
+Deployments as part of seldon project in seldon_project dir
+
