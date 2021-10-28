@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/chritter/argo_app
+    repoURL: https://github.com/chritter/argo_app1
     targetRevision: master
     path: .
   destination:
