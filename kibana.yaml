@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/chritter/charts
+    repoURL: https://github.com/chritter/charts1
     targetRevision: master
     path: stable/kibana
   destination:
