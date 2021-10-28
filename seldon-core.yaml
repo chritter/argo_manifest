@@ -14,7 +14,7 @@ spec:
     - /metadata/labels
   project: default
   source:
-    repoURL: https://chritter.github.io/charts
+    repoURL: https://chritter.github.io/charts1
     chart: seldon-core-operator
     targetRevision: 1.10.0
     path: .
